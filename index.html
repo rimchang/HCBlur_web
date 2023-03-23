@@ -225,7 +225,7 @@
             <div class="container">
                 <h2 class="text-center mt-0">ExLPose Dataset</h2>
 				<hr class="divider my-4" />
-					<div class="text-muted mb-0" align="center" style="font-size: large"><span class="font-weight-bolder">Ex</span>tremely <span class="font-weight-bolder">L</span>ow-light <span class="font-weight-bolder">Pose</span> dataset</div>
+					<div class="text-muted mb-0" align="center" style="font-size: large"><span class="font-weight-bolder">Ex</span>tremely <span class="font-weight-bolder">L</span>ow-light human <span class="font-weight-bolder">Pose</span> dataset</div>
                 <div class="row justify-content-center">
 				<div class="mt-5 col-md-12 col-lg-12">
                     <img src="assets/img/system.png" class="rounded mx-auto d-block" alt="..." style="width: 100%;">
@@ -251,7 +251,7 @@
                     <div class="col-lg-10 text-left">
                     <h3 class="h4 mb-2"><b>ExLPose.zip</b></h3>
                     <h6 class="mb-4">
-                        2,556 pairs of low-light images and the corresponding well-lit images.
+                        2,556 pairs of a low-light image and the corresponding well-lit image.
                     </h6>
                     <h3 class="h4 mb-2"><b>ExLPose-OC.zip</b></h3>
                     <h6 class="mb-4">
@@ -276,7 +276,7 @@
 					<div class="text-muted mb-0" align="center" style="font-size: large">
 						The proposed model architecture and training strategy. 
 						Both of teacher (<span class="font-italic">bottom</span>) and student (<span class="font-italic">top</span>) are trained by the same pose estimation loss, and student takes additional supervision from teacher through LUPI.
-						The loss for LUPI is applied to the feature maps of the first convolutional layer (<span class="font-italic">i.e.</span>, C1) and the following four residual blocks (<span class="font-italic">i.e.</span>, R1--R4) of a ResNet backbone.
+						The loss for LUPI is applied to the feature maps of the first convolutional layer (<span class="font-italic">i.e.</span>, C1) and the following four residual blocks (<span class="font-italic">i.e.</span>, R1-R4) of a ResNet backbone.
 						Teacher and student share all the parameters except LSBNs.
 					</div>
                 <div class="row justify-content-center">
